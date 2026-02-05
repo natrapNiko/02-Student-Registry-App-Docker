@@ -3,6 +3,6 @@ services:
   app:
     image: natrapniko/students
     ports:
-      - "80801:8081"
+      - "8081:8081"
     environment:
       - NODE_ENV=production
